@@ -4,8 +4,20 @@
     <head>
         <title>songs</title>
         <meta charset="utf-8">
-
         <style type="text/css">
+            .image{
+                width: 200px;
+                height: 200px;
+                float: bottom;
+            }
+            .text{
+                padding: 15px;
+                border-radius: 5px;
+                display: none;
+            }
+            .image:hover + .text{
+                display: block;
+            }
             div#side_bar{
                 width:170px;
                 height: 700px;
@@ -28,5 +40,14 @@
 
         <h1>Songs</h1>
         <p>꽂힌 노래들 기록장 </p>
+        <div style="overflow-x: auto; white-space: nowrap;">
+            <div class="image">
+                <img src="voicenotes.png">
+            </div>
+            <div class="text">
+                <p>어쩔</p>
+            </div>
+        </div>
+
 
     </body>
