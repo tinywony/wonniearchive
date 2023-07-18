@@ -8,12 +8,16 @@
             .image{
                 width: 200px;
                 height: 200px;
-                float: bottom;
             }
             .text{
                 padding: 15px;
                 border-radius: 5px;
+                background-color:silver;
                 display: none;
+                float: left;
+            }
+            .td{
+                padding: 15px
             }
             .image:hover + .text{
                 display: block;
@@ -39,11 +43,16 @@
         </div>
 
         <h1>Songs</h1>
-        <p>꽂힌 노래들 기록장 </p>
-        <div style="overflow-x: auto; white-space: nowrap;">
-            
-            <img class="image" src="voicenotes.png">
-            <div class="text">어쩔</div>
+        <p>사진 위에 마우스 커서를 올려보세요~ </p>
+        <div style="overflow-x: auto;">
+            <table style="white-space: nowrap;">
+                <tr>
+                    <td class="td">
+                        <img class="image" src="voicenotes.png">
+                        <div class="text">쩔어용</div>
+                    </td>
+                </tr>
+            </table>
         </div>
 
 
