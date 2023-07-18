@@ -11,16 +11,18 @@
             }
             .text{
                 padding: 15px;
+                margin: 10px;
                 border-radius: 5px;
                 background-color:silver;
-                display: none;
-                float: left;
+                opacity: 0;
+                transition: all ease 0.5s;
+                position: absolute;
             }
             .td{
                 padding: 15px
             }
             .image:hover + .text{
-                display: block;
+                opacity: 1;
             }
             div#side_bar{
                 width:170px;
@@ -36,14 +38,36 @@
         <div id="side_bar">
             <p><a href="index.html" style="padding: 10px;">main</a></p>
             <p><a href="alltimefav.html" style="padding: 10px;">all time favorite</a></p>
-            <p><a href="monthlyfav.html" style="padding: 10px;">monthly favorite</a></p>
+            
             <p><a href="albums.html" style="padding: 10px;">albums</a></p>
             <p><a href="artists.html" style="padding: 10px;">artists</a></p>
             <p><a href="songs.html" style="padding: 10px;">songs</a></p>
         </div>
 
         <h1>Songs</h1>
-        <p>사진 위에 마우스 커서를 올려보세요~ </p>
+        <p>사진 위에 마우스 커서를 올려보세요! 2023년도 이전 기록은 반영되지 않음. </p>
+        <div style="white-space: normal;">
+            <div class="td">
+                <img class="image" src="voicenotes.png">
+                <div>내가 좋아하는 거에용 좋아용 쩔어용<br>굿이에용</div>
+            </div>
+            <div class="td">
+                <img class="image" src="voicenotes.png">
+                <div>내가 좋아하는 거에용 좋아용 쩔어용<br>굿이에용</div>
+            </div>
+            <div class="td">
+                <img class="image" src="voicenotes.png">
+                <div>내가 좋아하는 거에용 좋아용 쩔어용<br>굿이에용</div>
+            </div>
+            <div class="td">
+                <img class="image" src="voicenotes.png">
+                <div>내가 좋아하는 거에용 좋아용 쩔어용<br>굿이에용</div>
+            </div>
+            <div class="td">
+                <img class="image" src="voicenotes.png">
+                <div>내가 좋아하는 거에용 좋아용 쩔어용<br>굿이에용</div>
+            </div>
+        </div>
         <div style="overflow-x: auto;">
             <table style="white-space: nowrap;">
                 <tr>
